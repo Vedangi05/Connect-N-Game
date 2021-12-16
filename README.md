@@ -1,1 +1,1 @@
-# Connect-N-Game
+# Connect-N Game
