@@ -6,7 +6,7 @@ if __name__ == '__main__':
     COLUMN_COUNT = int(input("Enter column Count!\n"))
     if(COLUMN_COUNT<=0):
         COLUMN_COUNT=int(input("Enter correct column count!\n"))
-    PIECES_NO = int(input("Enter NO Slices!\n"))
+    PIECES_NO = int(input("Enter No of Pieces!\n"))
     if(PIECES_NO<=0 or PIECES_NO>max(ROW_COUNT,COLUMN_COUNT)):
         PIECES_NO=int(input("Enter Correct No of Pieces!\n"))
     while(connect_n.gamefun(ROW_COUNT,COLUMN_COUNT,PIECES_NO)=="Yes"):
